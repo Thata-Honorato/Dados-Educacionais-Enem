@@ -1,4 +1,4 @@
-# Sprint 5 – Aplicativo Web de Análise de Dados de Veículos
+# Sprint 5 – Aplicativo Web de Análise de Dados Educacionais
 
 ## Descrição do Projeto
 
