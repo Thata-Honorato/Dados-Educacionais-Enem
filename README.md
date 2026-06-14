@@ -1,17 +1,44 @@
-# Sprint 5 – Aplicativo Web de Análise de Dados Educacionais
+# 📊 Educational Data Analytics Web App
 
-## Descrição do Projeto
+### Descripción
 
-Neste projeto, meu objetivo foi praticar tarefas comuns de engenharia de software para aprimorar minhas habilidades em análise de dados e desenvolvimento de aplicações web. Trabalhei na criação de um **aplicativo web interativo** que me permitiu explorar visualmente os dados e gerar insights de forma prática.  
+Aplicación web interactiva desarrollada para explorar y visualizar datos educativos mediante dashboards dinámicos e intuitivos.
 
-O foco do projeto foi:
+El proyecto fue diseñado para facilitar el análisis exploratorio de datos (EDA), permitiendo identificar patrones, tendencias y relaciones entre variables a través de visualizaciones interactivas.
 
-- Criar e gerenciar ambientes virtuais em Python.  
-- Desenvolver um aplicativo web usando **Streamlit**.  
-- Implementar gráficos interativos com **Plotly Express**.  
-- Implantar o aplicativo na nuvem usando **Render**.  
+### 🎯 Objetivos
 
-O conjunto de dados utilizado contém anúncios de vendas de carros (`vehicles_us.csv`). No entanto, o aplicativo poderia funcionar com qualquer CSV que eu escolhesse para análise.
+* Explorar conjuntos de datos mediante análisis visual.
+* Facilitar la identificación de tendencias y comportamientos.
+* Crear una experiencia intuitiva para la exploración de datos.
+* Desplegar una solución web accesible desde cualquier dispositivo.
+
+### 🛠️ Tecnologías Utilizadas
+
+* Python
+* Pandas
+* Streamlit
+* Plotly Express
+* Render
+
+### 📈 Funcionalidades
+
+✅ Dashboard interactivo
+
+✅ Histogramas dinámicos para analizar distribuciones de variables
+
+✅ Gráficos de dispersión para identificar correlaciones
+
+✅ Visualizaciones interactivas con Plotly
+
+✅ Interfaz web desarrollada con Streamlit
+
+✅ Despliegue en la nube mediante Render
+
+### 🚀 Resultados
+
+El proyecto demuestra la integración de análisis de datos, visualización interactiva y desarrollo web para transformar conjuntos de datos en información útil para la toma de decisiones.
+
 
 ---
 
