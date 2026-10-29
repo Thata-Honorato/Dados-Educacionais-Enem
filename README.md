@@ -46,3 +46,13 @@ The application includes:
 4. Interactive and responsive charts built with Plotly Express.
 5. A simple, functional, and user-friendly interface.
 
+----
+
+### 🚀 Live Demo
+
+Explore the application online:
+
+[**Access the ENEM Educational Data Analytics App**](https://dados-educacionais-enem.onrender.com)
+
+
+
