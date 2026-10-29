@@ -1,77 +1,48 @@
 # 📊 Educational Data Analytics Web App
 
-### Descripción
+### Description
 
-Aplicación web interactiva desarrollada para explorar y visualizar datos educativos mediante dashboards dinámicos e intuitivos.
+An interactive web application developed to explore and visualize educational data through dynamic, user-friendly dashboards.
 
-El proyecto fue diseñado para facilitar el análisis exploratorio de datos (EDA), permitiendo identificar patrones, tendencias y relaciones entre variables a través de visualizaciones interactivas.
+The project focuses on exploratory data analysis (EDA), enabling users to investigate data distributions, identify patterns, and explore relationships between variables through interactive visualizations.
 
-### 🎯 Objetivos
+### 🎯 Objectives
 
-* Explorar conjuntos de datos mediante análisis visual.
-* Facilitar la identificación de tendencias y comportamientos.
-* Crear una experiencia intuitiva para la exploración de datos.
-* Desplegar una solución web accesible desde cualquier dispositivo.
+- Explore educational datasets through visual analysis.
+- Identify patterns, trends, and relationships between variables.
+- Provide an intuitive experience for data exploration.
+- Deploy a web application accessible online.
 
-### 🛠️ Tecnologías Utilizadas
+### 🛠️ Technologies Used
 
-* Python
-* Pandas
-* Streamlit
-* Plotly Express
-* Render
+- Python
+- Pandas
+- Streamlit
+- Plotly Express
+- Render
 
-### 📈 Funcionalidades
+### 📈 Features
 
-✅ Dashboard interactivo
+- Interactive dashboard.
+- Histograms for analyzing variable distributions.
+- Scatter plots for exploring relationships between variables.
+- Interactive visualizations powered by Plotly Express.
+- User-friendly interface developed with Streamlit.
+- Cloud deployment using Render.
 
-✅ Histogramas dinámicos para analizar distribuciones de variables
+### 🚀 Results
 
-✅ Gráficos de dispersión para identificar correlaciones
-
-✅ Visualizaciones interactivas con Plotly
-
-✅ Interfaz web desarrollada con Streamlit
-
-✅ Despliegue en la nube mediante Render
-
-### 🚀 Resultados
-
-El proyecto demuestra la integración de análisis de datos, visualización interactiva y desarrollo web para transformar conjuntos de datos en información útil para la toma de decisiones.
-
+This project demonstrates the integration of data analysis, interactive visualization, and web development to make educational data easier to explore and support data-driven decision-making.
 
 ---
 
-## Funcionalidades do Aplicativo Web
+### 💻 Web Application Implementation
 
-No aplicativo que desenvolvi, implementei:
+The application includes:
 
-1. Um **cabeçalho** para apresentar o projeto ao usuário.  
-2. Um **histograma interativo**, gerado ao clicar em um botão ou selecionar uma caixa de seleção, para analisar distribuições de variáveis como odômetro, preço ou ano do veículo.  
-3. Um **gráfico de dispersão interativo**, também acionado por botão ou caixa de seleção, permitindo observar relações entre diferentes variáveis do dataset.  
-4. Integração com **Plotly Express** para gráficos interativos e responsivos.  
-5. Um layout simples, funcional e fácil de usar.
+1. A header introducing the project to users.
+2. Interactive histograms for exploring the distribution of selected variables.
+3. Interactive scatter plots for investigating relationships between variables in the dataset.
+4. Interactive and responsive charts built with Plotly Express.
+5. A simple, functional, and user-friendly interface.
 
-Exemplo de trecho de código utilizado:
-
-```python
-import pandas as pd
-import plotly.express as px
-import streamlit as st
-
-# Leitura do dataset
-car_data = pd.read_csv('vehicles_us.csv')
-
-# Criar um botão para histograma
-hist_button = st.button('Criar histograma')
-if hist_button:
-    st.write('Criando um histograma para o conjunto de dados de anúncios de carros')
-    fig = px.histogram(car_data, x="odometer")
-    st.plotly_chart(fig, use_container_width=True)
-
-# Criar um botão para gráfico de dispersão
-scatter_button = st.button('Criar gráfico de dispersão')
-if scatter_button:
-    st.write('Criando gráfico de dispersão para análise exploratória')
-    fig = px.scatter(car_data, x="odometer", y="price")
-    st.plotly_chart(fig, use_container_width=True)
